@@ -1,0 +1,22 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;  
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.calendar-container::before{
+    content: "";
+    background-image: url(./images/muela-juicio.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.calendar-style{
+    height: 50%;
+}
